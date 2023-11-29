@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Web Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h2>Simple Web Editor</h2>
+  <div id="web-editor">
+    <div class="input-area">
+      <label for="html-input">HTML:</label>
+      <textarea id="html-input" class="code-input"></textarea>
+    </div>
+    <div class="input-area">
+      <label for="css-input">CSS:</label>
+      <textarea id="css-input" class="code-input"></textarea>
+    </div>
+    <div class="input-area">
+      <label for="js-input">JavaScript:</label>
+      <textarea id="js-input" class="code-input"></textarea>
+    </div>
+    <div id="output-container">
+      <label for="output">JavaScript:</label>
+      <iframe id="output-iframe"></iframe>
+    </div>
+  </div>
+
+  <div id="root">
+	
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
